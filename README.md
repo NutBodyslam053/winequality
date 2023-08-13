@@ -1,5 +1,15 @@
 # Wine Quality
 
+## Installation
+```bash
+conda update -n base -c defaults conda
+
+conda create -p venv python=3.9 -y
+
+conda activate venv/
+
+pip install -r requirements.txt
+```
 ## Workflows
 1. Update config.yaml
 2. Update schema.yaml
@@ -10,13 +20,3 @@
 7. Update the pipeline 
 8. Update the main.py
 9. Update the app.py
-
-```bash
-conda update -n base -c defaults conda
-
-conda create -p venv python=3.9 -y
-
-conda activate venv/
-
-pip install -r requirements.txt
-```
