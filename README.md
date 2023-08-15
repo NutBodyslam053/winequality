@@ -1,5 +1,5 @@
 # MLOps Project: Wine Quality
----
+
 ## Workflows
 1. Update config.yaml
 2. Update schema.yaml
