@@ -1,5 +1,5 @@
 # MLOps Project: Wine Quality
-
+---
 ## Workflows
 1. Update config.yaml
 2. Update schema.yaml
@@ -11,17 +11,17 @@
 8. Update the main.py
 9. Update the app.py
 
-# How to run?
+## How to run?
 ### STEP 00: Clone the repository
 ```bash
 https://github.com/NutBodyslam053/winequality
 ```
 ### STEP 01: Create a conda environment after opening the repository
 ```bash
-conda create -n mlproj python=3.9 -y
+conda create -n <env_name> python=3.9 -y
 ```
 ```bash
-conda activate mlproj
+conda activate <env_name>
 ```
 
 ### STEP 02: Install the requirements
@@ -35,20 +35,10 @@ python app.py
 Now, open up you local host and port
 
 ## MLflow
-[Documentation](https://mlflow.org/docs/latest/index.html)
+> mlflow ui
 
-##### cmd
-- mlflow ui
-
-### dagshub
-[dagshub](https://dagshub.com/)
-
-MLFLOW_TRACKING_URI=https://dagshub.com/NutBodyslam053/winequality.mlflow \
-MLFLOW_TRACKING_USERNAME=NutBodyslam053 \
-MLFLOW_TRACKING_PASSWORD=b85bafd69d98861fee89f5bf70dc5f62cf41c2e5 \
-python script.py
-
-#### Run this to export as env variables:
+## DagsHub
+Run this to export as env variables (using Git bash for Windows):
 ```bash
 export MLFLOW_TRACKING_URI=https://dagshub.com/NutBodyslam053/winequality.mlflow
 export MLFLOW_TRACKING_USERNAME=NutBodyslam053
