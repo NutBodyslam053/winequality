@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/NutBodyslam053/DataSci/KrichNaik/E2E_ML_project/winequality/mlruns/0/857b5660600b41ac9d2790d89178c233/artifacts
+end_time: 1692085292105
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 857b5660600b41ac9d2790d89178c233
+run_name: efficient-tern-861
+run_uuid: 857b5660600b41ac9d2790d89178c233
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692085289442
+status: 3
+tags: []
+user_id: NutBodyslam
