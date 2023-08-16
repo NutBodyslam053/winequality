@@ -34,6 +34,8 @@ python app.py
 > http://localhost:8080
 
 ## MLflow on DagsHub
+MLflow Tracking remote:
+https://dagshub.com/NutBodyslam053/mlflow-demo.mlflow
 
 ### Run this to export as env variables.
 For Unix-like shells (e.g., Bash, macOS Terminal):
