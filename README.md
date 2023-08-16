@@ -33,13 +33,24 @@ python app.py
 ### STEP 03: Open a web browser
 > http://localhost:8080
 
-## MLflow
-> mlflow ui
+## MLflow on DagsHub
 
-## DagsHub
-Run this to export as env variables (using Git bash for Windows):
+### Run this to export as env variables.
+For Unix-like shells (e.g., Bash, macOS Terminal):
 ```bash
 export MLFLOW_TRACKING_URI=https://dagshub.com/NutBodyslam053/winequality.mlflow
 export MLFLOW_TRACKING_USERNAME=NutBodyslam053
 export MLFLOW_TRACKING_PASSWORD=b85bafd69d98861fee89f5bf70dc5f62cf41c2e5
+```
+For Windows PowerShell:
+```powershell
+$env:MLFLOW_TRACKING_URI = "https://dagshub.com/NutBodyslam053/winequality.mlflow"
+$env:MLFLOW_TRACKING_USERNAME = "NutBodyslam053"
+$env:MLFLOW_TRACKING_PASSWORD = "b85bafd69d98861fee89f5bf70dc5f62cf41c2e5"
+```
+For Windows Command Prompt:
+```batch
+set MLFLOW_TRACKING_URI=https://dagshub.com/NutBodyslam053/winequality.mlflow
+set MLFLOW_TRACKING_USERNAME=NutBodyslam053
+set MLFLOW_TRACKING_PASSWORD=b85bafd69d98861fee89f5bf70dc5f62cf41c2e5
 ```
